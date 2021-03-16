@@ -81,6 +81,7 @@ a {
   padding: 0 20px;
   line-height: 60px;
   display: none;
+  cursor: pointer;
 }
 @media (max-width:768px) {
     body {
@@ -112,6 +113,8 @@ a {
 
         height: calc(100% - 60px);
         overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
     }
     .nav-menu-item {
        line-height: 7rem;
@@ -122,6 +125,15 @@ a {
         background: none;
         color: var(--clr-secundario);
     }
-    
+    .nav-toggle {
+        display: block;
+    }
 
+    .nav-menu_visible {
+     left: 0;
+    }
+
+    .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+    }
 }
