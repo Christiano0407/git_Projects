@@ -46,3 +46,31 @@ The above copyright notice and this permission notice shall be included in all c
 *Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+# Platzi Course Mobile First
+[Escuela de Desarrollo Web](https://platzi.com/web/)
+
+# Teacher Diego de Granda
+[twitter](https://twitter.com/degranda10)
+[Instagram](https://twitter.com/degranda10)
+
+# Style Guide:
+
+## Palette Color:
+--backgroun: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+--Bitcoin-orange: #F7931A;
+--Soft-orange: #FFE9D5;
+--Secondary-blue: #1A9AF7;
+--Soft-blue:  #E7F5FF;
+--Warm-black:#201E1C;
+--Warm-black1: #282623;
+--Grey: #BABABA;
+--off-White:#FAF8F7;
+--just-White:  #FFFFFF;
+
+## Font Style:
+
+font-family: DM Sans;
+[GoogleFonts](https://fonts.google.com/specimen/DM+Sans?preview.text_type=custom)
+
+
