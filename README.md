@@ -73,4 +73,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 font-family: DM Sans;
 [GoogleFonts](https://fonts.google.com/specimen/DM+Sans?preview.text_type=custom)
 
+## Tips 
+- Posicionamiento
+- Modelo de caja (box-model)
+- Tipografía 
+- Visuales (efectos)
+-Otros
 
