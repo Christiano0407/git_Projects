@@ -79,6 +79,7 @@ grid-template-areas: "logo"
     color: var(--just-White);
     font-size: var(--fonts-sizes-sans-large);
     text-align: center;
+    line-height: 2.5rem;
 
     min-width: 288px;
     max-width: 900px;
@@ -91,6 +92,8 @@ grid-template-areas: "logo"
     color: var(--Grey);
     font-size: var(--font-sizes-sans-small);
     text-align: center;
+    line-height: 2rem;
+
     min-width: 288px;
     max-width: 900px;
 }
@@ -115,4 +118,18 @@ grid-template-areas: "logo"
 .nav__container a::after {
     content: url(../assets/icons/down-arrow.svg);
     margin-left: 1rem;
+}
+.main-container {
+    width: 100%;
+    min-width: 320px;
+    height: 80vh;
+    display: grid;
+}
+
+.footer {
+    display: grid;
+    min-width: 320px;
+    height: 150px;
+    width: 100%;
+    background-color: var(--Bitcoin-orange);
 }
