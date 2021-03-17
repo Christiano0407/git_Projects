@@ -79,6 +79,9 @@ grid-template-areas: "logo"
     color: var(--just-White);
     font-size: var(--fonts-sizes-sans-large);
     text-align: center;
+
+    min-width: 288px;
+    max-width: 900px;
 }
 .nav__container p {
     grid-area: subtitle;
@@ -88,6 +91,8 @@ grid-template-areas: "logo"
     color: var(--Grey);
     font-size: var(--font-sizes-sans-small);
     text-align: center;
+    min-width: 288px;
+    max-width: 900px;
 }
 .nav__container a {
     grid-area: button;
