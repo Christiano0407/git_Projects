@@ -1,4 +1,4 @@
-# Git_Projects
+# Projects_Practices
 Projects with Grid CSS / Flexbox / SASS / Javascript
 
 # References
@@ -57,16 +57,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # Style Guide:
 
 ## Palette Color:
---backgroun: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
---Bitcoin-orange: #F7931A;
---Soft-orange: #FFE9D5;
---Secondary-blue: #1A9AF7;
---Soft-blue:  #E7F5FF;
---Warm-black:#201E1C;
---Warm-black1: #282623;
---Grey: #BABABA;
---off-White:#FAF8F7;
---just-White:  #FFFFFF;
+- backgroun: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+- Bitcoin-orange: #F7931A;
+- Soft-orange: #FFE9D5;
+- Secondary-blue: #1A9AF7;
+- Soft-blue:  #E7F5FF;
+- Warm-black:#201E1C;
+- Warm-black1: #282623;
+- Grey: #BABABA;
+- off-White:#FAF8F7;
+- just-White:  #FFFFFF;
 
 ## Font Style:
 
