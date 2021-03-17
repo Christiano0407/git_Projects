@@ -97,12 +97,13 @@ grid-template-areas: "logo"
     min-width: 288px;
     max-width: 900px;
 }
-.nav__container a {
+.nav__container .nav--button {
     grid-area: button;
     position: relative;
     top: 5rem;
     z-index: 2;
-    width: 40%;
+    width: 229px;
+    height: 48px;
     justify-self: center;
     align-self: center;
     color: var(--Warm-black);
