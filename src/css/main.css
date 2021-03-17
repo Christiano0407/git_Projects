@@ -41,6 +41,12 @@ ul {
 a {
     text-decoration: none;
 }
+img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
 
 .header {
     min-width: 320px;
@@ -110,6 +116,7 @@ grid-template-areas: "logo"
     background-color: var(--just-White);
     padding: 1.5rem;
     border-radius: .5rem;
+    border: none;
     box-shadow: 2px 2px 12px .5px #000;
 
     text-align: center;
@@ -120,10 +127,22 @@ grid-template-areas: "logo"
     content: url(../assets/icons/down-arrow.svg);
     margin-left: 1rem;
 }
-.main-container {
+.main--container {
     width: 100%;
     min-width: 320px;
     height: 80vh;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+
+    grid-template-areas: "bitcoin"
+                         "tasas"
+                         "infomation"
+                         "tabla";
+    
+}
+
+.main--container__tabla {
     display: grid;
 }
 
