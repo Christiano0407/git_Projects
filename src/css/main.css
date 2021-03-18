@@ -282,7 +282,7 @@ grid-template-areas: "logo"
 }
 .tables .money1::after {
     content: url('../assets/icons/trending-down.svg');
-    margin-left: .5rem;
+    margin-left: 1rem;
 }
 .tables .money2 {
     grid-area: t3;
@@ -293,6 +293,10 @@ grid-template-areas: "logo"
     height: auto;
     color: var(--Grey);
 }
+.tables .money2::after {
+    content: url("../assets/icons/trending-up.svg");
+    margin-left:1rem
+}
 .tables .money3 {
     grid-area: t4;
     grid-column: 3 / 4;
@@ -302,6 +306,10 @@ grid-template-areas: "logo"
     height: auto;
     color: var(--Grey);
 }
+.tables .money3::after {
+    content: url("../assets/icons/trending-down.svg");
+    margin-left: 1rem;
+}
 .tables .money4 {
     grid-area: t5;
     grid-column: 3 / 4;
@@ -310,6 +318,33 @@ grid-template-areas: "logo"
     width: auto;
     height: auto;
     color: var(--Grey);
+}
+.tables .money4::after {
+    content: url("../assets/icons/trending-down.svg");
+    margin-left: 1rem;
+}
+.tables img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    grid-area:t3; 
+    grid-column: 4/5;
+    justify-self: center;
+    align-self: center;
+    
+}
+.tables .actualizado {
+    grid-area:t6;
+    grid-column: 2 / 3;
+    width: auto;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    color: var(--Warm-black1);
+    font-weight: bold;
+}
+.tables .actualizado::after {
+    content: ":";
 }
 
 
