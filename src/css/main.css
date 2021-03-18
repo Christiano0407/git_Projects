@@ -34,7 +34,7 @@ html {
 body {
     width: 100%;
     height: 100vh;
-    background-color: lightgray;
+    background-color: var(--off-White);
 }
 ul {
     list-style: none;
@@ -157,6 +157,45 @@ grid-template-areas: "logo"
                          "info"
                          "table";
 
+}
+.main--container__bitcoin img {
+    grid-area: bit;
+    align-self: center;
+    justify-self: center;
+    min-width: 320px;
+    height: 200px;
+    object-fit: cover;
+    background-position: center;
+    margin: 1rem 1rem;
+    padding: .5rem;
+
+}
+.main--container__bitcoin h2 {
+    grid-area: tasas;
+    font-size: var(--fonts-sizes-sans-large);
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    height: 52px;
+    margin: .5rem .5rem;
+    padding: .5rem;
+}
+.main--container__bitcoin .tables {
+    grid-area: table;
+    display: grid;
+}
+.main--container__bitcoin p {
+    grid-area: info;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    margin: .5rem .5rem;
+    line-height: 2.5rem;
+    color: var(--Grey);
+    text-align: center;
+    height: 54px;
 }
 
 
