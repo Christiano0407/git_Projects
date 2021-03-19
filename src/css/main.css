@@ -622,11 +622,11 @@ grid-template-areas: "logo"
     justify-self: center;
     margin: 0 auto;
     padding: 1rem;
-    text-decoration: cadetblue;
+    text-align: center;
     color: var(--Warm-black1);
     letter-spacing: .2rem;
     font-size: var(--font-sizes-sans-small);
-
+   
 }
 .main--container__plan .container--plan__pago {
     grid-area: pago;
@@ -653,24 +653,111 @@ grid-template-areas: "logo"
 }
 .container--plan__pago .container--buttom1 {
     grid-area: buttom1;
+    position: relative;
+    z-index: 1;
+    align-self: flex-start;
+    justify-self: center;
+    margin-top: -3rem;
+
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--Bitcoin-orange);
+    padding: .5rem;
+}
+.container--buttom1 p {
+    color: var(--just-White);
+    font-size: var(--font-sizes-sans-normal);
 }
 .container--plan__pago .container--pagos {
   grid-area: pagos;
+  align-self: center;
+  justify-self: center;
+}
+.container--pagos h2 {
+    font-size: var(--fonts-sizes-sans-large);
+    color: var(--Warm-black);
 }
 .container--plan__pago .container--money {
  grid-area: money;
+ align-self: center;
+ justify-self: center;
+ font-size: 5rem;
+ color: var(--Warm-black1);
+ font-weight: bold;
+}
+.container--money::before {
+    content: "$";
+    margin-right: 1rem;
 }
 .container--plan__pago .container--ahorro {
  grid-area: ahorros;
+ justify-self: center;
+ align-self: center;
+ color: var(--Warm-black1);
+ font-size: var(--font-sizes-sans-small);
+ padding: .5rem;
 }
-.container--plan__pago .vontainer--buttom2 {
+
+.container--plan__pago .container--buttom2 {
     grid-area: buttom2;
+    border: var(--Bitcoin-orange) 4px solid;
+    border-radius: 1.5rem;
+    min-width: 288px;
+}
+.container--buttom2 p {
+    color: var(--Warm-black);
+    font-size: var(--font-sizes-sans-normal);
+    font-weight: bold;
 }
 
  .footer {
-    display: grid;
     min-width: 320px;
     height: 334px;
     width: 100%;
     background-color: var(--Bitcoin-orange);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: .2rem;
+
+    grid-template-areas: "social logo";
+}
+.footer--social {
+    grid-area: social;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer--social p {
+    color: var(--just-White);
+    font-size: var(--font-sizes-sans-normal);
+    font-weight: bold;
+}
+.footer--logo {
+    grid-area: logo;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+
+}
+.footer--logo img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+    object-fit: cover;
+}
+.footer--logo p {
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: center;
+    color: var(--just-White);
+    font-size: var(--font-sizes-sans-small);
+    
 }
