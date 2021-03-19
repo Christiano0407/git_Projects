@@ -600,6 +600,72 @@ grid-template-areas: "logo"
     gap: .5rem;
 }
 
+.main--container__plan h1 {
+    grid-area: planes;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    height: auto;
+    font-size: var(--fonts-sizes-sans-large);
+    font-weight: bold;
+    color: var(--Warm-black);
+    letter-spacing: .2rem;
+}
+.main--container__plan p {
+    grid-area: acceso;
+    width: auto;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+    padding: 1rem;
+    text-decoration: cadetblue;
+    color: var(--Warm-black1);
+    letter-spacing: .2rem;
+    font-size: var(--font-sizes-sans-small);
+
+}
+.main--container__plan .container--plan__pago {
+    grid-area: pago;
+    min-width: 320px;
+    height: 350px;
+
+    background-color: var(--Soft-blue);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,1fr);
+    gap: .2rem;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px 1px var(--Warm-black1);
+
+    grid-template-areas: "buttom1"
+                         "pagos"
+                         "money"
+                         "ahorros"
+                         "buttom2";
+    gap: .2rem;
+    border: none;
+    border-radius: 1rem;
+}
+.container--plan__pago .container--buttom1 {
+    grid-area: buttom1;
+}
+.container--plan__pago .container--pagos {
+  grid-area: pagos;
+}
+.container--plan__pago .container--money {
+ grid-area: money;
+}
+.container--plan__pago .container--ahorro {
+ grid-area: ahorros;
+}
+.container--plan__pago .vontainer--buttom2 {
+    grid-area: buttom2;
+}
 
  .footer {
     display: grid;
