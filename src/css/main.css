@@ -391,6 +391,7 @@ grid-template-areas: "logo"
     margin-top: .5rem;
 }
 .main--container__product .tiempo {
+    grid-area: tiempo;
     min-width: 288px;
     width: 80%;
     height: 152px;
@@ -404,7 +405,7 @@ grid-template-areas: "logo"
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: auto;
-    grid-auto-flow: .2rem;
+    grid-auto-flow: row;
 }
 .tiempo .tiempo--img {
   grid-row: 1 / 2;
@@ -429,6 +430,7 @@ grid-template-areas: "logo"
   margin-left: 1rem;
 }
 .main--container__product .tasas {
+    grid-area: tasas;
     min-width: 288px;
     width: 80%;
     height: 152px;
@@ -442,7 +444,7 @@ grid-template-areas: "logo"
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: auto;
-    grid-auto-flow: .2rem;
+    grid-auto-flow: row;
 }
 .tasas .tasas--img {
     grid-row: 1 / 2;
@@ -467,6 +469,7 @@ grid-template-areas: "logo"
     margin-left: 1rem;
 }
 .main--container__product .compara {
+    grid-area: compara;
     min-width: 288px;
     width: 80%;
     height: 152px;
@@ -482,16 +485,30 @@ grid-template-areas: "logo"
     grid-template-columns: auto;
     grid-auto-flow: .2rem;
 }
-.compara .campara--img {
-
+.compara .compara--img {
+    grid-row: 1 / 2;
+    margin-left: 1rem;
+    padding: .5rem;
+    object-fit: cover;
+    width: auto;
+    height: auto;
 }
 .compara .compara--title {
-
+    grid-row: 2 / 3;
+    color: var(--just-White);
+    font-size: var(--font-sizes-sans-normal);
+    padding: .5rem;
+    margin-left: 1rem;
 }
 .compara .compara--text {
-
+    grid-row: 3 / 4;
+    color: var(--Grey);
+    font-size: var(--font-sizes-sans-small);
+    padding: .5rem;
+    margin-left: 1rem;
 }
 .main--container__product .info {
+    grid-area: information;
     min-width: 288px;
     width: 80%;
     height: 152px;
@@ -505,16 +522,29 @@ grid-template-areas: "logo"
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: auto;
-    grid-auto-flow: .2rem;
+    grid-auto-flow: row;
 }
 .info .info--img {
-
+    grid-row: 1 / 2;
+    margin-left: 1rem;
+    padding: .5rem;
+    object-fit: cover;
+    width: auto;
+    height: auto;
 }
 .info .info--title {
-
+    grid-row: 2 / 3;
+    color: var(--just-White);
+    font-size: var(--font-sizes-sans-normal);
+    padding: .5rem;
+    margin-left: 1rem;
 }
 .info .info--text {
-    
+    grid-row: 3 / 4;
+    color: var(--Grey);
+    font-size: var(--font-sizes-sans-small);
+    padding: .5rem;
+    margin-left: 1rem;
 }
 
 
