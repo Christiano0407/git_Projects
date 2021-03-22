@@ -106,7 +106,34 @@ p {
     margin-bottom: 1.75rem;
 }
 .subscription a {
-    
+    display: block;
+    background-color: var(--Bright-Yellow);
+    color:#ffffff;
+    padding: 0.75rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: background-color 200ms ease;
+}
+.subscription  a:hover {
+    background-color: var(--gray-Blue);
+}
+.why {
+    background-color: var(--light-Gray);
+}
+.why h3 {
+    font-size: var(--fonts-sizes-sans-large);
+    color: #ffffff;
+}
+.why ul {
+  margin-top: 0;
+  padding: 0;
+}
+.why ul li {
+ list-style-type: none;
+ font-size: 0.85rem;
+ margin-bottom: 0.2rem;
+ color:var(--Soft-blue);
 }
 /* @media only screen and (min-width: 62.5em) {
     .price {
