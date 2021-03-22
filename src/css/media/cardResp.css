@@ -1,0 +1,23 @@
+@media (min-width: 688px) {
+ 
+}
+
+@media (min-width: 425px) {
+   :root {
+    --font-sizes-sans-small: 1.2rem;
+    --font-sizes-sans-normal: 1.4rem;
+    --fonts-sizes-sans-large: 1.8rem;
+   }
+}
+
+
+/*Media-Max*/
+
+@media (max-width: 1024px) {
+
+    :root {
+        --font-sizes-sans-small: 1.6rem;
+        --font-sizes-sans-normal: 1.8rem;
+        --fonts-sizes-sans-large: 2.6rem;
+       }
+}
