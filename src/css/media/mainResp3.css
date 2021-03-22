@@ -1,0 +1,146 @@
+/*425px*/
+header {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.main--container__bitcoin {
+    width: 425px;
+    height: 400px;
+    flex-wrap: wrap;
+    display: grid;
+
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+
+    grid-template-areas: "bit"
+                         "tasas"
+                         "info"
+                         "table";
+}
+.main--container__bitcoin img {
+    grid-area: bit;
+    width: 425px;
+    height: auto;
+}
+.main--container__bitcoin h2 {
+    width: 425px;
+    grid-area: tasas;
+    height: auto;
+}
+.main--container__bitcoin p {
+    width: 425px;
+    grid-area: info;
+    height: auto;
+}
+.main--container__bitcoin .tables {
+    grid-area: table;
+    width: 425px;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: repeat(6, 1fr);
+
+    grid-template-areas: "t1 t1"
+                         "t2 t2"
+                         "t3 t3"
+                         "t4 t4"
+                         "t5 t5"
+                         "t6 t6";
+}
+.tables .p1 {
+    grid-area: t1;
+    grid-column: 1 / 2;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables .p2 {
+    grid-area: t1;
+    grid-column: 2 / 3;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables .p3 {
+    grid-area: t2;
+    grid-column: 1 / 2;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables .p4 {
+    grid-area: t2;
+    grid-column: 2 / 3;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables .money1 {
+    grid-area: t3;
+    grid-column: 1 / 2;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables .money2 {
+    grid-area: t3;
+    grid-column: 2 / 3;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables .money3 {
+    grid-area: t4;
+    grid-column: 1 / 2;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables .money4 {
+    grid-area: t4;
+    grid-column: 2 / 3;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables h3 {
+    grid-area: t5;
+    grid-column: 1 / 2;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.tables img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    grid-area:t5; 
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+    justify-self: center;
+    align-self: center;
+}
+.tables .actualizado {
+    grid-area:t6;
+    grid-column: 1 / 2;
+    width: auto;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    color: var(--Warm-black1);
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
+}

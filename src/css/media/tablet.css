@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    min-width: 320px;
+    height: 350px;
+
+}
+
+.main--container {
+    width: 100%;
+    height: auto;
+
+}
+.main--container__product {
+    margin-top: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "crear tiempo"
+                         "tasas compara"
+                         "info info";
+
+}
+.main--container__product .crear {
+    grid-area: crear;
+}
+.main--container__product .tiempo {
+    grid-area: tiempo;
+}
+.main--container__product .tasas {
+    grid-area: tasas;
+}
+.main--container__product .compara {
+    grid-area: compara;
+}
+.main--container__product .info {
+    grid-area: info;
+}
