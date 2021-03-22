@@ -15,6 +15,9 @@
     --font-sizes-sans-normal: 1.8rem;
     --fonts-sizes-sans-large: 2.4rem;
     --font-copy: 1.6rem;
+
+    --paddingX: 1.8rem;
+    --paddingY: 1.5rem;
 }
 
 * {
@@ -42,8 +45,67 @@ ul {
 a {
     text-decoration: none;
 }
-.price {
 
+h1, h2, h3 {
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 1.5;
+}
+h2 {
+    font-size: var(--font-sizes-sans-normal);
+    margin-bottom: 1.25rem;
+}
+h3 {
+    font-size: 1.1rem;
+}
+p {
+    margin-top: 0;
+}
+
+.price {
+  overflow: hidden;
+  max-width: 40rem;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+.price > * {
+    padding: var(--paddingX) var(--paddingY);
+}
+.community {
+    background-color: #ffffff;
+}
+.community h2 {
+    color: var(--cyan);
+}
+.community .subtitle {
+    font-size: 1rem;
+    color: var(--Bright-Yellow);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.community p {
+    font-size: 0.85rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+.subscription__price {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+.subscription__price span {
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    font-weight: normal;
+    opacity: 0.75;
+}
+.subscription p {
+    font-size: 0.9rem;
+    margin-bottom: 1.75rem;
+}
+.subscription a {
     
 }
 /* @media only screen and (min-width: 62.5em) {
