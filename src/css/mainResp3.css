@@ -28,7 +28,7 @@
 
     body {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-color: var(--off-White);
     }
     ul {
@@ -43,3 +43,28 @@
         background-repeat: no-repeat;
         object-fit: cover;
     }
+/* 
+    .main--container__bitcoin .tables {
+        width: 100%;
+        height: auto;
+        grid-area: table;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: .2rem;
+        margin: 0 auto;
+        grid-template-areas: "t1"
+                             "t2"
+                             "t3"
+                             "t4"
+                             "t5"
+                             "t6";
+    }
+    .tables .p1 {
+        grid-area: t1;
+        justify-self: center;
+        align-self: center;
+        width: auto;
+        height: auto;
+    } */
+
