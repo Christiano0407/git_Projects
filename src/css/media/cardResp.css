@@ -1,19 +1,4 @@
-@media (min-width: 688px) {
- 
-}
-
-@media (min-width: 425px) {
-   :root {
-    --font-sizes-sans-small: 1.2rem;
-    --font-sizes-sans-normal: 1.4rem;
-    --fonts-sizes-sans-large: 1.8rem;
-   }
-}
-
-
-/*Media-Max*/
-
-@media (max-width: 1024px) {
+@media (min-width: 1392px) {
 
     :root {
         --font-sizes-sans-small: 1.6rem;
@@ -21,3 +6,20 @@
         --fonts-sizes-sans-large: 2.6rem;
        }
 }
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 688px) {
+ 
+}
+
+@media (min-width: 425px) {
+   .price {
+       display: grid;
+   }
+
+}
+
+/* @max-width */
